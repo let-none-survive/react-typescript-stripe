@@ -1,0 +1,11 @@
+@import "~bulma";
+
+img {
+  object-fit: scale-down;
+}
+
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
