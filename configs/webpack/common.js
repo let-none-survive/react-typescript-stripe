@@ -32,7 +32,7 @@ module.exports = {
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin({ template: "index.html.ejs" }), new Dotenv()],
+  plugins: [new HtmlWebpackPlugin({ template: "index.html.ejs" })],
   externals: {
     react: "React",
     "react-dom": "ReactDOM",
