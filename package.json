@@ -31,7 +31,6 @@
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
-    "express": "^4.17.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.0.0-alpha.10",
     "image-webpack-loader": "^7.0.1",
@@ -51,6 +50,7 @@
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "@stripe/react-stripe-js": "^1.2.2",
     "@stripe/stripe-js": "^1.12.1",
     "@types/classnames": "^2.2.11",
