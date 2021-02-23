@@ -83,7 +83,7 @@ const CheckoutForm: React.FC = () => {
   }
 
   if (redirect) {
-    return <Redirect to="/" />
+    return <Redirect to="/?payment=success" />
   }
 
   return (
